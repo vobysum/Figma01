@@ -1,0 +1,186 @@
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 143px 65px 143px;
+    width: 1154px;
+    height: 758px;
+    background: #51C8BC;
+    box-shadow: 0px 0px 10px 9px rgba(186, 186, 186, 0.25);
+    border-radius: 26px;
+}
+
+.inner-container {
+    width: 729px;
+    height: 758px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 9px rgba(186, 186, 186, 0.25);
+    border-radius: 26px;
+}
+
+.title{
+    width: 357px;
+    margin-top: 48px;
+    margin-left: 34px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.logo{
+    width: 85px;
+    height: 52px;
+    margin-top: 34px;
+    margin-left: 34px;
+}
+
+.device{
+    position: absolute;
+    left: -152px;
+}
+
+.form{
+    margin-top: 104px; 
+    margin-left: 116px;
+}
+
+.language{
+    position: absolute;
+    left: 1149px;
+    top: 150px;
+}
+
+.create-account{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.form-input{
+    width: 510px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.form-input::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #BEBCBC;
+}
+
+.privacy-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #BEBCBC;
+}
+
+.button {
+    width: 513px;
+    height: 57px;
+    background: #3BADCD;
+    border-radius: 5px;
+    border-style: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+
+.alternative-signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 513px;
+    height: 57px;
+}
+
+.google-link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+
+.google-logo{
+    width: 23px;
+    height: 27px;
+}
+
+.google-label{
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 181px;
+    height: 27px;
+    color: #4b494970;
+}
+
+.facebook-link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+
+.facebook-logo{
+    margin-top: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.facebook-label{
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 181px;
+    height: 27px;
+    color: #4b494970;
+}
+
+.account-already {
+    width: 513px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.account-question {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #BEBCBC;
+}
+
+.account-login{
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #3BADCD;
+}
